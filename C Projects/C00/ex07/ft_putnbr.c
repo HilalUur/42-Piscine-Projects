@@ -32,9 +32,3 @@ void	ft_putnbr(int n)
 		write(1, &"0123456789"[n % 10], 1);
 	}
 }
-
-int	main(void)
-{
-	ft_putnbr(768);
-	return (0);
-}
