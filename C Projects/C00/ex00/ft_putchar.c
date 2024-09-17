@@ -12,13 +12,11 @@
 
 #include <unistd.h>
 
-// ft_putchar fonksiyonunun tanımı
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-// test için main fonkunu yazacağım.
 int	main(void)
 {
 	ft_putchar('A');
