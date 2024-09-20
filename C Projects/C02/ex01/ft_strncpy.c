@@ -27,10 +27,3 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
-int main()
-{
-	char dest[]="taha";
-	char src[]="hilal";
-	unsigned int n=2;
-	printf("%s",ft_strncpy(dest,src,n));
-}
